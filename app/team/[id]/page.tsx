@@ -11,16 +11,17 @@ const teamData: Record<string, { name: string, role: string, img: string, bio: s
      name: 'Siti Maskanah', 
      role: 'Fullstack Developer', 
      img: 'https://static.vecteezy.com/system/resources/previews/065/760/128/non_2x/anime-profile-girl-vector.jpg',
-     bio: 'Dengan latar belakang fotografi komersial, Almira bertugas menyeleksi setiap akomodasi dan restoran. Motonya: "Jika tidak bagus dipandang mata, apalagi saat dikunjungi."'
+     bio: 'Dengan latar belakang fotografi komersial, Siti bertugas menyeleksi setiap akomodasi dan restoran. Motonya: "Jika tidak bagus dipandang mata, apalagi saat dikunjungi."'
   },
   '3': { 
      name: 'Sakinah Aprilia', 
      role: 'Fullstack Developer', 
      img: 'https://static.vecteezy.com/system/resources/previews/065/760/142/non_2x/cute-anime-profile-picture-on-white-vector.jpg',
-     bio: 'Pemuda asli Banyumas yang mengenal setiap preman pasar hingga perangkat desa. Kehadiran Bagas memuluskan segala perizinan wisata ekstrem NyuVenture.'
+     bio: 'Pemudi asli Banyumas yang mengenal setiap preman pasar hingga perangkat desa. Kehadiran Sakinah memuluskan segala perizinan NyuVenture.'
   }
 };
-export default async function TeamMemberPage({ params }: { params: Promise<{ id: string }> }) {
+export default async function TeamMemberPage({ params }: { params: Promise<{ id: string }> }) {
+
   const { id } = await params;
   const person = teamData[id];
   if (!person) {
