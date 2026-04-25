@@ -21,7 +21,7 @@
 ## Referensi
 - Next.Js : [Next.Js](https://nextjs.org/)
 - Tailwind CSS : [Tailwind CSS](https://tailwindcss.com/)
-- Waifu Image Api : [Waifu Image Api](https://waifu.im/docs)
+- Waifu Image Api : [Waifu Image Api](https://docs.waifu.im/)
 
 <h1 align="center">Kelompok 10</h1>
 <p align="center">
