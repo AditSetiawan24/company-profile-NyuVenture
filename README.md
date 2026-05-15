@@ -1,4 +1,5 @@
-# [Tugas 7 - Kelompok 10]
+# [Kelompok 10]
+Lanjutan tugas 7 [klik disini](https://github.com/AditSetiawan24/nyu.git)
 ## Live Preview
 [![Preview Website](https://image.thum.io/get/width/1200/noanimate/https://nyuventure.vercel.app/)](https://nyuventure.vercel.app/)
 
